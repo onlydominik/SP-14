@@ -1,0 +1,35 @@
+@use "../abstract/breakpoints";
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @include breakpoints.medium {
+    background-color: var(--clr-neutral-300);
+    margin: 5rem 0;
+  }
+}
+main,
+header {
+  background-color: var(--clr-neutral-100);
+  max-width: 43.75rem;
+  margin: 0 auto;
+  padding-bottom: 0;
+}
+
+@include breakpoints.medium {
+  main {
+    border-radius: 0 0 15px 15px;
+    padding: var(--size-200);
+    padding-top: 0.1px;
+  }
+
+  header {
+    border-radius: 15px 15px 0 0;
+    padding: var(--size-200);
+    padding-bottom: 0;
+    & img {
+      border-radius: 15px;
+    }
+  }
+}

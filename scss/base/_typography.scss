@@ -1,0 +1,39 @@
+h1,
+h2 {
+  font-family: "Young Serif", sans-serif;
+  margin-bottom: var(--size-100);
+}
+
+h1 {
+  font-size: var(--fs-800);
+  color: var(--clr-brown-200);
+}
+
+h2 {
+  font-size: var(--fs-700);
+  color: var(--clr-primary-100);
+}
+
+p,
+li,
+strong,
+h3 {
+  font-family: "Outfit", sans-serif;
+  color: var(--clr-brown-100);
+  line-height: 1.4rem;
+}
+
+h3 {
+  font-size: var(--fs-600);
+  color: var(--clr-primary-200);
+  font-weight: var(--fw-600);
+}
+
+strong {
+  font-weight: var(--fw-700);
+  color: var(--clr-brown-100);
+}
+
+p {
+  line-height: 1.4rem;
+}
